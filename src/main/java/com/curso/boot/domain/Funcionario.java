@@ -23,7 +23,7 @@ public class Funcionario extends AbstractEntity<Long>{
 	private BigDecimal salario;
 	
 	@Column(name = "data_entrada", nullable = false, columnDefinition = "DATE")
-	private LocalDate dataEntrada;
+	private LocalDate dataEntrada; 
 	
 	@Column(name = "data_saida", columnDefinition = "DATE")
 	private LocalDate dataSaida;
